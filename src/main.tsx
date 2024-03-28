@@ -13,6 +13,7 @@ import {
   User,
 } from "@phosphor-icons/react"
 import twitterLogo from "./assets/logo-twitter.svg"
+import { Tweet } from "./components/Tweet"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -74,6 +75,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
             <button type="submit">Tweet</button>
           </form>
           <div className="divider" />
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
         </main>
       </div>
     </div>
