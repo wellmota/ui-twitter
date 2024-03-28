@@ -9,6 +9,7 @@ import {
   FileText,
   Hash,
   House,
+  Sparkle,
   User,
 } from "@phosphor-icons/react"
 import twitterLogo from "./assets/logo-twitter.svg"
@@ -56,7 +57,25 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           Tweet
         </button>
       </aside>
-      <div className="content">content</div>
+      <div className="content">
+        <main className="timeline">
+          <div className="timeline-header">
+            Home
+            <Sparkle />
+          </div>
+          <form action="" className="new-tweet-form">
+            <label htmlFor="tweet">
+              <img
+                src="https://github.com/wellmota.png"
+                alt="Wellington Mota"
+              />
+              <textarea id="tweet" placeholder="Whats'happening?"></textarea>
+            </label>
+            <button type="submit">Tweet</button>
+          </form>
+          <div className="divider" />
+        </main>
+      </div>
     </div>
   </React.StrictMode>
 )
