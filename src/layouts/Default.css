@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 1000px;
   display: grid;
-  min-width: 100vh;
+
   grid-template-columns: 300px 1fr;
 }
 
